@@ -24,8 +24,8 @@ Penggunaannya :
 Cron Job (optional) : 
 pakai # di depannya mengikuti script cronjob defaultnya.
 
--m h  dom mon dow   command
--Auto Backup Server - Daily at 2 AM (untuk backup setiap jam 2 pagi)
--0 2 * * * /usr/local/bin/server-backup.sh
--Auto Backup Server - Weekly on Sunday at 3 AM (untuk backup mingguan di hari minggu jam 3 pagi)  
--0 3 * * 0 /usr/local/bin/server-backup.sh
+m h  dom mon dow   command
+Auto Backup Server - Daily at 2 AM (untuk backup setiap jam 2 pagi)
+0 2 * * * /usr/local/bin/server-backup.sh
+Auto Backup Server - Weekly on Sunday at 3 AM (untuk backup mingguan di hari minggu jam 3 pagi)  
+0 3 * * 0 /usr/local/bin/server-backup.sh
