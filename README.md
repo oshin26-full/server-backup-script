@@ -19,7 +19,7 @@ Penggunaannya :
 2. Beri permission: chmod +x server-backup.sh
 3. Beri permission: chmod +x check-backup.sh
 4. Beri permission: chmod +x test-backup.sh
-3. Jalankan: sudo ./server-backup.sh
+3. Jalankan manual: sudo ./server-backup.sh
 
 Cron Job (optional) : 
 pakai # di depannya mengikuti script cronjob defaultnya.
