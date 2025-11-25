@@ -18,7 +18,7 @@ Penggunaannya :
 1. Edit konfigurasi di dalam script (user MySQL, password, directory backup).
 2. Beri permission: chmod +x server-backup.sh
 3. Beri permission: chmod +x check-backup.sh
-4. Beri permission: chmod +x test-backup.sh
+4. Beri permission: chmod +x test-restore.sh
 3. Jalankan manual: sudo ./server-backup.sh
 
 Cron Job (optional) : 
